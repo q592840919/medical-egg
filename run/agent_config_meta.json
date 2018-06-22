@@ -1,0 +1,288 @@
+{
+  "sequelize": {
+    "dialect": "/Users/xuefeng/home/project/medical/medical-egg/config/config.default.js",
+    "database": "/Users/xuefeng/home/project/medical/medical-egg/config/config.default.js",
+    "host": "/Users/xuefeng/home/project/medical/medical-egg/config/config.default.js",
+    "port": "/Users/xuefeng/home/project/medical/medical-egg/config/config.default.js",
+    "username": "/Users/xuefeng/home/project/medical/medical-egg/config/config.default.js",
+    "password": "/Users/xuefeng/home/project/medical/medical-egg/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "useSession": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "cookieName": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "sessionName": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "headerName": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "bodyName": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "queryName": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "value": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.local.js",
+      "maxAge": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "value": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "value": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "policy": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "checkAddress": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "dirs": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "queryField": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.default.js",
+      "development": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "fields": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "files": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-development@2.3.1@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-development@2.3.1@egg-development/config/config.default.js",
+    "fastReady": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-development@2.3.1@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-development@2.3.1@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-development@2.3.1@egg-development/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-schedule@3.3.0@egg-schedule/config/config.default.js",
+      "file": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-schedule@3.3.0@egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "dir": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "dynamic": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "preload": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "buffer": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "maxFiles": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
+    "cache": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-view@2.1.0@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
+    "mapping": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js"
+  },
+  "env": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "name": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "keys": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "proxy": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "protocolHeaders": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "ipHeaders": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "hostHeaders": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "version": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "description": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "private": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "mysql2": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "egg-sequelize": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "egg-scripts": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "autod-egg": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "egg-bin": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "egg-ci": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "egg-mongoose": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "egg-mock": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "eslint": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "eslint-config-egg": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "stop": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "dev": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "debug": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "test": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "test-local": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "cov": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "lint": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "ci": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "autod": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "upload": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "migrate:new": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "migrate:up": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "migrate:down": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "url": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+    },
+    "author": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "license": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+  },
+  "baseDir": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "HOME": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "rundir": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "notFound": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "sitefile": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "middlewares": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "httpClient": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "encoding": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "formLimit": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "jsonLimit": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "strict": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "depth": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "parameterLimit": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "encoding": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "env": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "level": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "consoleLevel": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "outputJSON": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "buffer": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "appLogName": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "coreLogName": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "agentLogName": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "errorLogName": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "maxSockets": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "maxSockets": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "logging": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "port": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "hostname": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "responseTimeout": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+  },
+  "onClientError": "/Users/xuefeng/home/project/medical/medical-egg/node_modules/_egg@2.9.1@egg/config/config.default.js"
+}

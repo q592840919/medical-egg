@@ -1,0 +1,264 @@
+2018-06-22 19:39:27,643 ERROR 28891 nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, TypedArray, or DataView
+    at Hash.update (internal/crypto/hash.js:53:11)
+    at sha1 (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:30:8)
+    at Object.token [as calculateToken] (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:64:16)
+    at new HandshakeResponse (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packets/handshake_response.js:28:24)
+    at ClientHandshake.sendCredentials (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:51:27)
+    at ClientHandshake.handshakeInit (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:142:10)
+    at ClientHandshake.Command.execute (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/command.js:40:20)
+    at Connection.handlePacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:89:29)
+    at emitOne (events.js:125:13)
+    at Socket.emit (events.js:221:7)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:598:20)
+
+pid: 28891
+hostname: xuefengdeMacBook-Air.local
+
+2018-06-22 19:40:05,135 ERROR 28917 nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, TypedArray, or DataView
+    at Hash.update (internal/crypto/hash.js:53:11)
+    at sha1 (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:30:8)
+    at Object.token [as calculateToken] (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:64:16)
+    at new HandshakeResponse (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packets/handshake_response.js:28:24)
+    at ClientHandshake.sendCredentials (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:51:27)
+    at ClientHandshake.handshakeInit (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:142:10)
+    at ClientHandshake.Command.execute (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/command.js:40:20)
+    at Connection.handlePacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:89:29)
+    at emitOne (events.js:125:13)
+    at Socket.emit (events.js:221:7)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:598:20)
+
+pid: 28917
+hostname: xuefengdeMacBook-Air.local
+
+2018-06-22 19:41:04,555 ERROR 28947 nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, TypedArray, or DataView
+    at Hash.update (internal/crypto/hash.js:53:11)
+    at sha1 (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:30:8)
+    at Object.token [as calculateToken] (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:64:16)
+    at new HandshakeResponse (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packets/handshake_response.js:28:24)
+    at ClientHandshake.sendCredentials (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:51:27)
+    at ClientHandshake.handshakeInit (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:142:10)
+    at ClientHandshake.Command.execute (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/command.js:40:20)
+    at Connection.handlePacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:89:29)
+    at emitOne (events.js:125:13)
+    at Socket.emit (events.js:221:7)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:598:20)
+
+pid: 28947
+hostname: xuefengdeMacBook-Air.local
+
+2018-06-22 19:42:32,088 ERROR 28981 nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, TypedArray, or DataView
+    at Hash.update (internal/crypto/hash.js:53:11)
+    at sha1 (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:30:8)
+    at Object.token [as calculateToken] (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:64:16)
+    at new HandshakeResponse (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packets/handshake_response.js:28:24)
+    at ClientHandshake.sendCredentials (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:51:27)
+    at ClientHandshake.handshakeInit (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:142:10)
+    at ClientHandshake.Command.execute (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/command.js:40:20)
+    at Connection.handlePacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:89:29)
+    at emitOne (events.js:125:13)
+    at Socket.emit (events.js:221:7)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:598:20)
+
+pid: 28981
+hostname: xuefengdeMacBook-Air.local
+
+2018-06-22 19:43:18,808 ERROR 29009 nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, TypedArray, or DataView
+    at Hash.update (internal/crypto/hash.js:53:11)
+    at sha1 (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:30:8)
+    at Object.token [as calculateToken] (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:64:16)
+    at new HandshakeResponse (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packets/handshake_response.js:28:24)
+    at ClientHandshake.sendCredentials (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:51:27)
+    at ClientHandshake.handshakeInit (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:142:10)
+    at ClientHandshake.Command.execute (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/command.js:40:20)
+    at Connection.handlePacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:89:29)
+    at emitOne (events.js:125:13)
+    at Socket.emit (events.js:221:7)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:598:20)
+
+pid: 29009
+hostname: xuefengdeMacBook-Air.local
+
+2018-06-22 19:51:24,004 ERROR 29138 nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, TypedArray, or DataView
+    at Hash.update (internal/crypto/hash.js:53:11)
+    at sha1 (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:30:8)
+    at Object.token [as calculateToken] (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:64:16)
+    at new HandshakeResponse (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packets/handshake_response.js:28:24)
+    at ClientHandshake.sendCredentials (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:51:27)
+    at ClientHandshake.handshakeInit (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:142:10)
+    at ClientHandshake.Command.execute (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/command.js:40:20)
+    at Connection.handlePacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:89:29)
+    at emitOne (events.js:125:13)
+    at Socket.emit (events.js:221:7)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:598:20)
+
+pid: 29138
+hostname: xuefengdeMacBook-Air.local
+
+2018-06-22 19:52:57,279 ERROR 29198 nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, TypedArray, or DataView
+    at Hash.update (internal/crypto/hash.js:53:11)
+    at sha1 (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:30:8)
+    at Object.token [as calculateToken] (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:64:16)
+    at new HandshakeResponse (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packets/handshake_response.js:28:24)
+    at ClientHandshake.sendCredentials (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:51:27)
+    at ClientHandshake.handshakeInit (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:142:10)
+    at ClientHandshake.Command.execute (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/command.js:40:20)
+    at Connection.handlePacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:89:29)
+    at emitOne (events.js:125:13)
+    at Socket.emit (events.js:221:7)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:598:20)
+
+pid: 29198
+hostname: xuefengdeMacBook-Air.local
+
+2018-06-22 19:53:16,808 ERROR 29221 nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, TypedArray, or DataView
+    at Hash.update (internal/crypto/hash.js:53:11)
+    at sha1 (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:30:8)
+    at Object.token [as calculateToken] (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:64:16)
+    at new HandshakeResponse (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packets/handshake_response.js:28:24)
+    at ClientHandshake.sendCredentials (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:51:27)
+    at ClientHandshake.handshakeInit (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:142:10)
+    at ClientHandshake.Command.execute (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/command.js:40:20)
+    at Connection.handlePacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:89:29)
+    at emitOne (events.js:125:13)
+    at Socket.emit (events.js:221:7)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:598:20)
+
+pid: 29221
+hostname: xuefengdeMacBook-Air.local
+
+2018-06-22 19:53:40,707 ERROR 29250 nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, TypedArray, or DataView
+    at Hash.update (internal/crypto/hash.js:53:11)
+    at sha1 (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:30:8)
+    at Object.token [as calculateToken] (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:64:16)
+    at new HandshakeResponse (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packets/handshake_response.js:28:24)
+    at ClientHandshake.sendCredentials (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:51:27)
+    at ClientHandshake.handshakeInit (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:142:10)
+    at ClientHandshake.Command.execute (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/command.js:40:20)
+    at Connection.handlePacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:89:29)
+    at emitOne (events.js:125:13)
+    at Socket.emit (events.js:221:7)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:598:20)
+
+pid: 29250
+hostname: xuefengdeMacBook-Air.local
+
+2018-06-22 19:58:50,203 ERROR 29307 nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, TypedArray, or DataView
+    at Hash.update (internal/crypto/hash.js:53:11)
+    at sha1 (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:30:8)
+    at Object.token [as calculateToken] (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:64:16)
+    at new HandshakeResponse (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packets/handshake_response.js:28:24)
+    at ClientHandshake.sendCredentials (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:51:27)
+    at ClientHandshake.handshakeInit (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:142:10)
+    at ClientHandshake.Command.execute (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/command.js:40:20)
+    at Connection.handlePacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:89:29)
+    at emitOne (events.js:125:13)
+    at Socket.emit (events.js:221:7)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:598:20)
+
+pid: 29307
+hostname: xuefengdeMacBook-Air.local
+
+2018-06-22 19:59:57,567 ERROR 29334 nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, TypedArray, or DataView
+    at Hash.update (internal/crypto/hash.js:53:11)
+    at sha1 (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:30:8)
+    at Object.token [as calculateToken] (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:64:16)
+    at new HandshakeResponse (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packets/handshake_response.js:28:24)
+    at ClientHandshake.sendCredentials (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:51:27)
+    at ClientHandshake.handshakeInit (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:142:10)
+    at ClientHandshake.Command.execute (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/command.js:40:20)
+    at Connection.handlePacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:89:29)
+    at emitOne (events.js:125:13)
+    at Socket.emit (events.js:221:7)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:598:20)
+
+pid: 29334
+hostname: xuefengdeMacBook-Air.local
+
+2018-06-22 20:00:42,468 ERROR 29366 nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, TypedArray, or DataView
+    at Hash.update (internal/crypto/hash.js:53:11)
+    at sha1 (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:30:8)
+    at Object.token [as calculateToken] (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/auth_41.js:64:16)
+    at new HandshakeResponse (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packets/handshake_response.js:28:24)
+    at ClientHandshake.sendCredentials (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:51:27)
+    at ClientHandshake.handshakeInit (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/client_handshake.js:142:10)
+    at ClientHandshake.Command.execute (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/commands/command.js:40:20)
+    at Connection.handlePacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:502:28)
+    at PacketParser.onPacket (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:81:16)
+    at PacketParser.executeStart (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/packet_parser.js:77:14)
+    at Socket.<anonymous> (/Users/xuefeng/home/project/medical/medical-egg/node_modules/_mysql2@1.5.3@mysql2/lib/connection.js:89:29)
+    at emitOne (events.js:125:13)
+    at Socket.emit (events.js:221:7)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:598:20)
+
+pid: 29366
+hostname: xuefengdeMacBook-Air.local
+

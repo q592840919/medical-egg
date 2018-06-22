@@ -2,14 +2,14 @@
 
 const Controller = require('egg').Controller;
 
-class CardController extends Controller {
+class dictionaryController extends Controller {
   async add() {
     const {
         ctx,
         service
     } = this;
-    const marketInfo = ctx.request.body.marketInfo;
-    const res = await service.market.card.add(marketInfo); 
+    const dicInfo = ctx.request.body.dicInfo;
+    const res = await service.system.dictionary.add('dictionary', id ,dicInfo); 
     ctx.body = res;
   }
 
@@ -19,7 +19,7 @@ class CardController extends Controller {
         service
     } = this;
     let info = {_id: ctx.request.body.id};
-    const res = await service.market.card.add(info); 
+    const res = await service.system.dictionary.remove('dictionary',id); 
     ctx.body = res;
   }
 
@@ -29,8 +29,8 @@ class CardController extends Controller {
         service
     } = this;
     const id = ctx.request.body.id;
-    const marketInfo = ctx.request.body.marketInfo;
-    const res = await service.market.card.edit(id, info); 
+    const dicInfo = ctx.request.body.dicInfo;
+    const res = await service.system.dictionary.edit('dictionary', id ,dicInfo); 
     ctx.body = res;
   }
 
@@ -40,9 +40,9 @@ class CardController extends Controller {
         service
     } = this;
     const id = ctx.request.body.id;
-    const res = await service.market.card.query(id); 
+    const res = await service.system.dictionary.query('dictionary', id); 
     ctx.body = res;
   }
 }
 
-module.exports = CardController;
+module.exports = dictionaryController;

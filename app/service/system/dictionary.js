@@ -1,6 +1,6 @@
 'use strict';
 const BaseService = require('../core/baseService');
-class CardService extends BaseService {
+class DictionaryService extends BaseService {
     
 }
-module.exports = CardService;
+module.exports = DictionaryService;

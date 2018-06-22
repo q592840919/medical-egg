@@ -37,3 +37,12 @@ $ npm stop
 
 
 [egg]: https://eggjs.org
+
+### 说明
+
+- model 定义模型
+- controller 调用service
+- service 使用模型,baseServirce为父级
+
+- egg是调用是通过文件名调用的，比如controller调用service,service.system.dictionary.add('dictionary',id),system:文件夹名,
+- 文件名:dictionary

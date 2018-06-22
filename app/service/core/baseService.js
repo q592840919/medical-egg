@@ -1,8 +1,8 @@
 'use strict';
 const Service = require('egg').Service;
 class BaseService extends Service {
-    async add(post) {
-        const info = await this.ctx.model.Market.Info.create(marketInfo);
+    async add(type, post) {
+        const info = await this.ctx.model[type].Info.create(post);
         return {
             code: 20000,
             status: true,
@@ -10,8 +10,8 @@ class BaseService extends Service {
         }
     }
 
-    async del(marketInfo) {
-        const info = await this.ctx.model.Market.Info.remove(marketInfo);
+    async del(type, id) {
+        const info = await this.ctx.model[type].Info.remove(id);
         return {
             code: 20000,
             status: true,
@@ -19,8 +19,8 @@ class BaseService extends Service {
         }
     }
 
-    async edit(id, post) {
-        const info = await this.ctx.model.Market.Info.findByIdAndUpdate(id,marketInfo);
+    async edit(type, id, post) {
+        const info = await this.ctx.model[type].Info.findByIdAndUpdate(id,post);
         return {
             code: 20000,
             status: true,
@@ -28,8 +28,8 @@ class BaseService extends Service {
         }
     }
 
-    async query(id) {
-        const info = await this.ctx.model.Market.Info.findById(id);
+    async query(type, id) {
+        const info = await this.ctx.model[type].Info.findById(id);
         return {
             code: 20000,
             status: true,

@@ -3,16 +3,8 @@
 exports.sequelize = {
   dialect: 'mysql', // support: mysql, mariadb, postgres, mssql
   database: 'medical',
-  host: 'localhost',
+  host: '47.95.215.144',
   port: '3306',
   username: 'root',
   password: '123456',
 };
-sequelize
-  .authenticate()
-  .then(() => {
-  console.log('Connection has been established successfully.');
-})
-.catch(err => {
-  console.error('Unable to connect to the database:', err);
-});

@@ -6,7 +6,7 @@
   "dependencies": {
     "egg": "^2.2.1",
     "mysql2": "^1.5.3",
-    "egg-sequelize": "3.1.4",
+    "egg-sequelize": "^3.1.4",
     "egg-scripts": "^2.5.0"
   },
   "devDependencies": {
@@ -24,10 +24,10 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-happygo",
-    "stop": "egg-scripts stop --title=egg-server-happygo",
+    "start": "egg-scripts start --daemon --title=egg-server-medical",
+    "stop": "egg-scripts stop --title=egg-server-medical",
     "dev": "egg-bin dev",
-    "debug": "egg-bin debug",
+    "debug": "egg-bin  debug ",
     "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
