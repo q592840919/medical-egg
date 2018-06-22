@@ -6,7 +6,7 @@ git add -A
 git commit -m "$v_time"
 git push origin master
 echo "success push git!"
-if $1||false
+if ${1:-false}
 then
 echo "success push!"
 ssh root@47.95.215.144 "sh /shells/happygo/happygo-server.sh"
